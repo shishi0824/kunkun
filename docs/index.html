@@ -29,7 +29,7 @@
 <body>
     <h1>お兄ちゃんもう朝だぞ！！おーきーて♡にぃに！</h1>
     <p>おはよ！お兄ちゃん‼</p>
-    <input type="text" id="userInput" placeholder="無視しないで">
+    <input type="text" id="userInput" placeholder="無視しないで（おはようをねだってる）">
     <button onclick="respond()">送信</button>
     <div class="response" id="response"></div>
 
@@ -39,7 +39,7 @@
             const responseDiv = document.getElementById("response");
 
             if (input === "おはよう") {
-                responseDiv.textContent = "おはよう";
+                responseDiv.textContent = "おはよ！今日もかっこいいね！";
             } else {
                 responseDiv.textContent = "おはよ！今日もかっこいいね！";
             }
